@@ -4,13 +4,13 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        long start =System.nanoTime();
+     
        int[] nu2 = {1,2,0,0,};
         System.out.println(addToArrayForm(nu2,34));
 
 
-        long end = System.nanoTime();
-        System.out.println("location " + (end - start));
+        
+     
     }
 
     public static List<Integer> addToArrayForm(int[] m, int k){
@@ -29,9 +29,6 @@ public class Main {
                 my_list.add(Integer.parseInt(String.valueOf(c[i])));
 
         }
-
-
-
 
 
         return my_list;
